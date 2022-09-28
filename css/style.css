@@ -1,1 +1,63 @@
 @import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+body {
+  font-family: "Epilogue", sans-serif;
+}
+
+:root{
+    --blanco: hsl(0, 0%, 98%);
+    --gris: hsl(0, 0%, 41%);
+    --negro: hsl(0, 0%, 8%);
+}
+header {
+  margin: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.snap {
+  font-size: 35px;
+  font-weight: 700;
+}
+.displayFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionOne {
+  height: 330px;
+  background-image: url(../img/image-hero-mobile.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sectionTwo {
+  margin: 5%;
+}
+.containText {
+  text-align: center;
+}
+
+h1 {
+    margin-bottom: 15px;
+  font-size: 37px;
+  font-weight: bold;
+}
+.Text{
+    padding: 0 10px;
+    line-height: 25px;
+    color:var(--gris) ;
+}
+button{
+    margin: 20px 0 30px 0;
+    height: 2.5rem ;
+    width: 7rem;
+    border-radius: 0.8rem;
+    border-style: none;
+    background-color: var(--negro);
+    color: var(--blanco);
+    font-weight: 700;
+}
+.os{
+    font-size: 5px;
+}
