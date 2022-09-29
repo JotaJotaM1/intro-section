@@ -50,14 +50,15 @@ h1 {
     color:var(--gris) ;
 }
 button{
-    margin: 20px 0 30px 0;
-    height: 2.5rem ;
-    width: 7rem;
-    border-radius: 0.8rem;
+    margin: 28px 0 35px 0;
+    height: 3.4rem ;
+    width: 8.4rem;
+    border-radius: 1rem;
     border-style: none;
     background-color: var(--negro);
     color: var(--blanco);
     font-weight: 700;
+    font-size: 17px;
 }
 .imgInfo{
     height: auto;
