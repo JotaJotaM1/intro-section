@@ -29,6 +29,7 @@ header {
   background-image: url(../img/image-hero-mobile.png);
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
 }
 
 .sectionTwo {
@@ -58,6 +59,7 @@ button{
     color: var(--blanco);
     font-weight: 700;
 }
-.os{
-    font-size: 5px;
+.imgInfo{
+    height: auto;
+    width: 85px;
 }
